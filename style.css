@@ -6,8 +6,13 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: Lato;
 }
 
+body {
+    background-image: url(/Исходники/unsplash_T5pL6ciEn-I.png);
+    background-size: cover;
+}
 
 a {
     text-decoration: none;
@@ -21,37 +26,90 @@ ul {
     padding: 0;
 }
 
+p, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
 .header {
     background-color: var(--header-bg-color);
     color: var(--text-color);
-
 }
 
-.header-navigation {
+.header_navigation {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+.logo {
+    margin: 20px 0 20px 24px;
+    padding-right: 92px;
 }
 
 .h-nav {
     display: flex;
     align-items: center;
-    height: 80px;
+    justify-content: center;  
+    color: #FBFCF8;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
 
 .navigation_header {
     display: flex;
+    justify-content: center;
     align-items: center;
-    margin-left: 93px;
-    padding: 0px;
-    margin-bottom: 0;
-    color: var(--header-text-color);
+    margin: 30px 177px 31px 0;
 }
 
-.container {
-    width: 1440px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin: 0 auto;
-    outline: 1px solid red;
+.navigation_media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav_media_item:not(:last-child) {
+    margin: 0 24px 0 0;
+    padding: 0;
+
+}
+
+.hero-text {
+    color: #FBFCF8;
+    font-family: Lato;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.hero-details {
+    color: #FFF;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+    width: 113px;
+}
+
+.section-class{
+    display: flex;
 }
 
 
+
+.nav_item:not(:last-child) {
+    margin: 0 24px 0 0;
+    padding: 0;
+}
